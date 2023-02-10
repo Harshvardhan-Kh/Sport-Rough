@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.div-container {
+    display: flex;
+    height: 600px;
+     background-color: 	#0fffff;
+     text-align: center;
+     justify-content: center;
+     animation-name: example;
+     animation-iteration-count: infinite;
+     animation-duration: 8s;
+     animation-delay: 2s;
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-top: 30px;
+     border-radius: 10px;
+     border-style: solid;
+}
+    
+.main-heading{
+    font-size: 100px;
+    margin-top: 200px;
+  
+}
+
+@keyframes example {
+    25% {
+        background: rgb(58, 255, 67);
+      }
+
+      25% {
+        background: rgb(196, 106, 255);
+      }
+      25% {
+        background: rgb(209, 209, 209);
+      }
+      25% {
+        background: rgb(243, 164, 164);
+      }
+    
+}
+.cust-img{
+    height: 500px;
+    width: 650px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 5px double black;
+
+}
+    
+
+
