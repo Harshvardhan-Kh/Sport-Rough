@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+:root {
+    --body-color: rgb(182, 146, 146);
+    --slider-color: white;
+    --toggle-color: gray;
+    --prime-color: orange;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.slider .img-txt-cont span img {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    
+}
+
+.slider {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background: var(--slider-color);
+    padding: 14px 10px;
+}
+body{
+    background: var(--body-color);
+    height: 100vh;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.slider header .img-txt-cont{
+    display: flex;
+    align-items: center;
+}
+
+.slider .img-txt-cont .text-header{
+    font-size: 16px;
+    
+}
+.slider .img{
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+.slider header .toggle{
+top:3%;
+right:-25px;
+position: absolute;
+transform: translate(-50%);
+background-color: var(--toggle-color);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+color: var(--prime-color);
+font-size: 20px;
+
+}
+
+.slider li{
+    background-color: red;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
