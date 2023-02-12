@@ -1,104 +1,135 @@
-.footer{
+.footer {
     width: 100%;
-    height:auto;
+    height: auto;
     position: relative;
     background-color: #1a1a1a;
 }
-.contain{
+
+.contain {
     display: flex;
     padding: 0;
     margin: 0;
     width: auto;
     height: auto;
 }
-.col{
+
+.col {
     padding: 25px;
     margin: 10px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     align-items: center;
     color: #f2f2f2;
     font-size: small;
     font-weight: lighter;
-    font-family:inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--body-color);
     height: auto;
     width: auto;
-    
+
 }
- .col h1 ul li{
+
+.col h1 ul li {
     color: #ffffff;
     margin-bottom: 25px;
-    padding:10px;
+    padding: 10px;
     cursor: pointer;
     line-height: 20;
 }
-.col-social{
+
+.col-social {
     color: #ffffff;
     padding: 25px;
     margin: 10px;
+    padding-top: 30px;
 }
- .social-icon{
+
+
+.social-icon {
     margin: 5px;
-    padding: 8px;
+    padding: 5px;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 10px;
 }
-ul li:hover{
-    color: #cccc00;
+
+.social-icon:hover {
+    border-radius: 20px 20px 30px 30px;
+    border-radius: 10px;
+}
+
+.h1-heading {
+    margin-bottom: 30px;
+}
+
+.h1-heading:hover{
+    color: #992600;
+}
+
+li {
+    margin-left: 50px;
+    font-variant-position: initial;
+}
+
+ul li:hover {
+    color: #992600;
     padding-left: 2px;
     cursor: pointer;
- }
-  
-.social-icon:hover{
+}
+
+.social-icon:hover {
     transform: scale(1.2);
 }
+
 .clearfix {
     clear: both;
-  }
- 
-body{
+}
+
+body {
     background-color: rgb(255, 255, 255);
 }
 
 .div-container {
     display: flex;
     height: 600px;
-     background-color: 	#0fffff;
-     text-align: center;
-     justify-content: center;
-     animation-name: example;
-     animation-iteration-count: infinite;
-     animation-duration: 8s;
-     animation-delay: 2s;
-     margin-left: 30px;
-     margin-right: 30px;
-     margin-top: 30px;
-     border-radius: 10px;
-     border-style: solid;
+    background-color: #0fffff;
+    text-align: center;
+    justify-content: center;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: solid;
 }
-    
-.main-heading{
+
+.main-heading {
     font-size: 100px;
     margin-top: 200px;
-  
+
 }
 
 @keyframes example {
     25% {
         background: rgb(58, 255, 67);
-      }
+    }
 
-      25% {
+    25% {
         background: rgb(196, 106, 255);
-      }
-      25% {
+    }
+
+    25% {
         background: rgb(209, 209, 209);
-      }
-      25% {
+    }
+
+    25% {
         background: rgb(243, 164, 164);
-      }
-    
+    }
+
 }
-.cust-img{
+
+.cust-img {
     height: 500px;
     width: 650px;
     margin-top: 100px;
@@ -107,7 +138,7 @@ body{
     border: 5px double black;
 
 }
-    
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
@@ -116,7 +147,7 @@ body{
     --body-color: rgb(182, 146, 146);
     --slider-color: white;
     --toggle-color: gray;
-    --prime-color: orange;
+    --prime-color: #ffa500;
 
 }
 
@@ -131,7 +162,7 @@ body{
     height: 46px;
     width: 46px;
     border-radius: 8px;
-    
+
 }
 
 .slider {
@@ -143,51 +174,56 @@ body{
     background: var(--slider-color);
     padding: 14px 10px;
 }
-body{
+
+body {
     background: var(--body-color);
     height: 100vh;
 }
-.footer{
+
+.footer {
     position: absolute;
     bottom: 0;
     left: 50%;
 }
-.slider header .img-txt-cont{
+
+.slider header .img-txt-cont {
     display: flex;
     align-items: center;
 }
 
-.slider .img-txt-cont .text-header{
+.slider .img-txt-cont .text-header {
     font-size: 16px;
-    
+
 }
-.slider .img{
+
+.slider .img {
     min-width: 60px;
     display: flex;
     align-items: center;
 }
-.slider header .toggle{
-top:3%;
-right:-25px;
-position: absolute;
-transform: translate(-50%);
-background-color: var(--toggle-color);
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
-color: var(--prime-color);
-font-size: 20px;
+
+.slider header .toggle {
+    top: 3%;
+    right: -25px;
+    position: absolute;
+    transform: translate(-50%);
+    background-color: var(--toggle-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--prime-color);
+    font-size: 20px;
 
 }
 
-.slider li{
+.slider li {
     background-color: red;
     height: 50px;
     position: relative;
     top: 5px;
     align-items: center;
     justify-content: center;
-    
+
 
 }
