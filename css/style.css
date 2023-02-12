@@ -1,7 +1,9 @@
+/*footer start*/
 .footer {
+
+    height: 250px;
     width: 100%;
-    height: auto;
-    position: relative;
+    position: fixed;
     background-color: #1a1a1a;
 }
 
@@ -60,8 +62,12 @@
     margin-bottom: 30px;
 }
 
-.h1-heading:hover{
+.h1-heading:hover {
     color: #992600;
+}
+
+.list-container {
+    margin-top: 20px;
 }
 
 li {
@@ -82,6 +88,8 @@ ul li:hover {
 .clearfix {
     clear: both;
 }
+
+/*footer end*/
 
 body {
     background-color: rgb(255, 255, 255);
