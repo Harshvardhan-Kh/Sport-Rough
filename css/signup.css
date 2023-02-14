@@ -52,7 +52,7 @@ body {
     border-radius: 6px;
     outline: none;
   }
-  input[type="button"] {
+  input[type="submit"] {
     width: 320px;
     height: 35px;
     margin-top: 20px;
@@ -60,6 +60,11 @@ body {
     background-color: #e6e600;
     color: white;
     font-size: 18px;
+  }
+ input[type="submit"]:hover{
+    color: black;
+  border: 2px solid black;
+    transition: .5s;
   }
   p {
     text-align: center;
